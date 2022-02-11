@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:wght@458&display=swap');
 body {
   font-family: 'Besley', serif;
+  color: white;
+  background-color: #1a2130;
+  behavior: smooth ;
 }
 
 
