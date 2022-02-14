@@ -1,0 +1,32 @@
+.skills-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    background-color: #2a2f35;
+    padding: 20px 13px;
+}
+.tittle-skills{
+    margin: 15px auto 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon-skills {
+    font-size: 60px;
+    color: #2db498;
+}
+.content-skills{
+    width: 100%;
+    
+}
+.icon {
+    font-size: 27px;
+    padding: 2px;
+    color: #2db498;
+    border: 2px solid white;
+    border-radius: 50%;
+}
