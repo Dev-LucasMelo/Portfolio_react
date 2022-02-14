@@ -52,7 +52,7 @@ const Skills = () => {
 
    
     return (
-        <div className='skills-component'>
+        <section className='skills-component'>
             <div className='tittle-skills'>
                 <CgList className='icon-skills' />
                 <h1>Skills</h1>
@@ -61,12 +61,11 @@ const Skills = () => {
                 {icons.map((values,key)=>(
                     <>
                         <Bar key={key} icon={values.icon} porcent={values.progress} />
-                        {console.log()}
                     </>
                 ))}
                 
             </div>
-        </div>
+        </section>
     );
 }
 
