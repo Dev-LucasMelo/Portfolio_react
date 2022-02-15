@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-around;
 }
-.identify-border {
+.border {
     border-top: 2px solid white; 
     margin: auto;
     width: 95%;
