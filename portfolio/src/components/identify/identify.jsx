@@ -11,7 +11,7 @@ import './identify.css'
 
 const Identify = () => {
     return (
-        <footer className='identify-component'>
+        <footer id='identify-component' className='identify-component'>
             <div className='identify-border'>
                 <div className='identify-box'>
                     <div className='photo-box'>
@@ -25,11 +25,7 @@ const Identify = () => {
                             <a href="mailto:lucasmelodev@gmail.com" target=' _blank'><BiMailSend className='social-icon'/> </a>
                             <a href="https://wa.me/5587000603641" target=' _blank'><FaWhatsappSquare className='social-icon'/></a>
                             <a href="https://github.com/Dev-LucasMelo" target=' _blank'><FaGithub className='social-icon' /></a>
-                            <a href="https://www.instagram.com/luscanabis_/" target=' _blank'><FaInstagramSquare className='social-icon'/></a>
-                            
-                            
-                            
-                            
+                            <a href="https://www.instagram.com/luscanabis_/" target=' _blank'><FaInstagramSquare className='social-icon'/></a>                    
                         </div>
                     </div>
                 </div>

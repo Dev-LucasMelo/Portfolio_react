@@ -3,10 +3,12 @@ body {
   font-family: 'Besley', serif;
   color: white;
   background-color: #1a2130;
-  scroll-behavior: smooth
 }
 a {
   text-decoration: none;
   color: white;
+}
+* {
+  scroll-behavior: smooth;
 }
 

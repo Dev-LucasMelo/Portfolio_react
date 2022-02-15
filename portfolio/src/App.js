@@ -3,6 +3,7 @@ import Navigate from './components/Navigate/navigate';
 import Header from './components/header/header';
 import Skills from './components/skills/skills';
 import Identify from './components/identify/identify';
+import Top from './components/to_top/top';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Skills />
       <Identify />
+      <Top />
     </div>
   );
 }

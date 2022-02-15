@@ -1,0 +1,19 @@
+.arrow {
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    opacity: 0;
+    transition: .2s ease-in;
+}
+.arrow-icon {
+    font-size: 60px;
+    transition: .2s ease-in;
+}
+.arrow-icon:hover {
+    color: #2db498;
+}
+
+.aparece {
+    transition: .2s ease-in;
+    opacity: 1;
+}
