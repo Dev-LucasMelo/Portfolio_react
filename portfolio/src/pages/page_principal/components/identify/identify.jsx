@@ -1,7 +1,7 @@
 import React from 'react';
 
 //imagens
-import luscas from './../../images/luscas.jpg'
+import luscas from './../../../../images/luscas.jpg'
 //icons
 
 import { BiMailSend } from 'react-icons/bi'

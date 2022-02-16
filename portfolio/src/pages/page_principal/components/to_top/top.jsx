@@ -1,25 +1,20 @@
 import React from 'react';
-import {BsFillArrowUpCircleFill} from 'react-icons/bs'
-
+import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import './top.css'
 
-  
-window.addEventListener('scroll', ()=>{
-    var arrow = document.getElementById('arrow')  
+window.addEventListener('scroll', () => {
     var identify_component = document.getElementById('identify-component')
     var distance = identify_component.getBoundingClientRect().top
     var tela_altura = window.scrollY
-
-    if (distance < tela_altura)  {
-        arrow.classList.add('aparece') 
-    } else {
-        arrow.classList.remove('aparece') 
-    }
+    var arrow = document.getElementById('arrow')
     
-    console.log(tela_altura)
+    if (distance < tela_altura) {
+        arrow.classList.add('aparece')
+    } else {
+        arrow.classList.remove('aparece')
+    }
+
 })
-
-
 const Top = () => {
     return (
         <>

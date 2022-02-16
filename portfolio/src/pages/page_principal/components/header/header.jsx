@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css'
-import luscas from './../../images/luscas.jpg'
+import luscas from './../../../../images/luscas.jpg'
 
 const Header = () => {
     return (

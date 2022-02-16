@@ -1,10 +1,11 @@
 import './App.css';
-import Navigate from './components/Navigate/navigate';
-import Header from './components/header/header';
-import Skills from './components/skills/skills';
-import Identify from './components/identify/identify';
-import Top from './components/to_top/top';
-import Apresentation from './components/apresentation/apresentation';
+import Navigate from './pages/page_principal/components/Navigate/navigate.jsx'
+import Header from './pages/page_principal/components/header/header.jsx'
+import Skills from './pages/page_principal/components/skills/skills.jsx'
+import Identify from './pages/page_principal/components/identify/identify.jsx'
+import Apresentation from './pages/page_principal/components/apresentation/apresentation.jsx';
+import Top from './pages/page_principal/components/to_top/top.jsx'
+
 
 function App({Menu}) {
   return (
