@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import App from '../App';
-import Projects from '../pages/page_projects/components/projects_component/projects';
+import Projects from '../pages/page_projects/components/App_projects/projects';
 import Menu from '../pages/page_principal/components/menu navigate/menu';
 
 const Router = () => {

@@ -1,0 +1,43 @@
+.projects-poster {
+    width: 80%;
+    height: max-content;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 4px solid #2db498;
+    padding: 15px 10px;
+    margin: 2% auto 2% auto;
+    background-color: #2a2f35;
+    border-radius: 10px;
+}
+.image-box,
+.description-project {
+    width: 50%;
+    margin: 5px;
+}
+.image-box{
+    display: flex;
+    flex: 1;
+    border: 4px solid #2db498;
+    align-items: center;
+    border-radius: 14px;
+}
+.image-project {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.description-project{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 1;
+    margin: 0 0 0 2%;
+}
+.azul {
+    color:#2db498;
+    font-weight: bold;
+}
