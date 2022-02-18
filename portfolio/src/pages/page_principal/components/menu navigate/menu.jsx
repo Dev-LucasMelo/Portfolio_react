@@ -5,7 +5,7 @@ const Menu = () => {
     return (
         <nav className='menu-nav'>
             <ul className='list'>
-                <a href="#apresentation_component"><li className='list-item animation'>Sobre Lucas</li></a><span>|</span> 
+                <a className='sobrelucas' href="#apresentation_component"><li className='list-item animation'>Sobre Lucas</li></a><span className='space'>|</span> 
                 <a href="/projects"><li className='list-item animation'>Projetos</li></a>   
             </ul>
         </nav>

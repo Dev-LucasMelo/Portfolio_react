@@ -1,5 +1,6 @@
 .menu-nav {
     width: 50%;
+    
 }
 .list {
     display: flex;
@@ -22,4 +23,20 @@
     transition: .3s;
     color: #2db498;
 }
-
+@media (max-width: 745px) {
+    .list {
+        font-size: 17px;
+        padding: 0px 0 0 100px;
+    }
+    .sobrelucas,.space {
+        display: none;
+    }
+}
+@media (max-width: 565px) {
+    .list {
+        padding: 0px 0 0 80px;
+    }
+    .sobrelucas,.space {
+        display: none;
+    }
+}

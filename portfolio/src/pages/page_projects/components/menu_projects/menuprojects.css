@@ -1,0 +1,8 @@
+.menu-projects {
+    width: 50%;
+}
+@media (min-width:350px ){
+    .voltar {
+        margin-right:70px ;
+    }
+}
