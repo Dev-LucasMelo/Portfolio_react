@@ -1,7 +1,12 @@
 .menu-projects {
     width: 50%;
 }
-@media (min-width:350px ){
+@media (min-width: 2100px){
+    .voltar{
+        font-size: 40px;
+    }
+}
+@media (max-width:350px ){
     .voltar {
         margin-right:70px ;
     }

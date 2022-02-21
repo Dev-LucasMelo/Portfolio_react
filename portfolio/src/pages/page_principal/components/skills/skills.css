@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 98%;
+    width: 100%;
     background-color: #2a2f35;
-    padding: 20px 13px;
+    padding: 0px 0px;
 }
 .tittle-skills{
     margin: 15px auto 0 auto;
@@ -29,4 +29,12 @@
     color: #2db498;
     border: 2px solid white;
     border-radius: 50%;
+}
+@media (max-width: 565px) {
+    .skills-component{
+        padding: 0px 1%;
+    }
+    .icon{
+        font-size: 20px;
+    }
 }

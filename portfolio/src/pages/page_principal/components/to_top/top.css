@@ -15,5 +15,14 @@
 
 .aparece {
     transition: .2s ease-in;
-    opacity: 1;
+    opacity: 0.9;
+}
+@media(max-width: 565px) {
+    .arrow{
+        right: 15px;
+        bottom: 140px;
+    }
+    .arrow-icon{
+        font-size: 50px;
+    }
 }

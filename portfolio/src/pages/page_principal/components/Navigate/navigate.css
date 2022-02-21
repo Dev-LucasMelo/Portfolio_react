@@ -14,13 +14,36 @@
     width: 50%;
     text-align: center;
 }
+@media (min-width:1370px) {
+    .tittle{
+        font-size: 40px;
+    }
+}
+@media (min-width:2100px){
+    .tittle{
+        font-size: 50px;
+        width: 100%;
+    }
+}
+@media (max-width: 910px){
+    .navigate-component {
+        width: 95%;
+    }
+}
 @media (max-width: 565px) {
     .tittle{
         font-size: 25px;
     }
+    .navigate-component {
+        width: 94%;
+    }
+    
 }
 @media (max-width: 422px) {
     .tittle{
         font-size: 20px;
+    }
+    .navigate-component {
+        width: 93%;
     }
 }

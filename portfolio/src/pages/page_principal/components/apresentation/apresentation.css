@@ -18,3 +18,21 @@ video {
 h2 {
     text-align: center;
 }
+@media (max-width:745px){
+    .apresentation-box{
+        width:350px ;
+        height:200px ;
+    }
+}
+@media (max-width:565px) {
+    .apresentation_component{
+        padding: 10px 1%;
+        height: max-content;
+    }
+}
+@media (max-width: 460px){
+    .apresentation-box{
+        width:250px ;
+        height:150px ;
+    }
+}
