@@ -23,7 +23,7 @@ const ProjectsPoster = ({item,subitems}) => {
                             </>))}
                         </ul>
                     </div>
-                    <div>
+                    <div classname='link-projects-box'>
                         <a className='link-project' target=' _blank' href={item.link}><span className='azul'>Clique aqui</span></a> para ver o projeto em produção
                     </div>
                 </div>

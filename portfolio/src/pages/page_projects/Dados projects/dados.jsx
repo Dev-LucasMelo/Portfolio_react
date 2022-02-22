@@ -23,7 +23,7 @@ const Dados = [
     },
     {
         id: 2,
-        tittle: 'Sistema de listagem',
+        tittle: 'Sis. de listagem',
         typeProject: 'Fullstack',
         tecs: [
             {
@@ -40,7 +40,7 @@ const Dados = [
     }, 
     {
         id: 2,
-        tittle: 'Netflix copy interface',
+        tittle: 'Netflix interface',
         typeProject: 'Frontend',
         tecs: [
             {
@@ -48,7 +48,7 @@ const Dados = [
                 TecDesc: 'React.js & CSS'
             },
         ],
-        link: 'https://dev-lucasmelo.github.io/netflix/',
+        link: 'https://dev-lucasmelo.github.io/netflix_build/',
         image: Netflix
     }
 

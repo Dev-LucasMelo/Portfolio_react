@@ -47,3 +47,8 @@
         width: 93%;
     }
 }
+@media (max-width: 378px) {
+    .navigate-component {
+        width: 92%;
+    }
+}
