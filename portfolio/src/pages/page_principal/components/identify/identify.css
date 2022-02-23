@@ -138,4 +138,10 @@ h1 {
     h1 {
         font-size: 14px;
     }
+    .content-box{
+        flex: 4;
+    }
+    .photo-box{
+        flex: 1;
+    }
 }
