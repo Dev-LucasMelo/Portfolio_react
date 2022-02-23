@@ -23,7 +23,7 @@ const Dados = [
     },
     {
         id: 2,
-        tittle: 'Sis. de listagem',
+        tittle: 'S de listagem',
         typeProject: 'Fullstack',
         tecs: [
             {
