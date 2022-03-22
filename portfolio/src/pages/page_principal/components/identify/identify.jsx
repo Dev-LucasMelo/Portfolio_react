@@ -7,7 +7,6 @@ import luscas from './../../../../images/luscas.jpg'
 import { BiMailSend } from 'react-icons/bi'
 import {
     FaWhatsappSquare, FaGithub,
-    FaInstagramSquare, FaLinkedin
 }
     from 'react-icons/fa'
 //css
@@ -29,8 +28,6 @@ const Identify = () => {
                             <a href="mailto:lucasmelodev@gmail.com" target=' _blank'><BiMailSend className='social-icon' /> </a>
                             <a href="https://wa.me/5587000603641" target=' _blank'><FaWhatsappSquare className='social-icon' /></a>
                             <a href="https://github.com/Dev-LucasMelo" target=' _blank'><FaGithub className='social-icon' /></a>
-                            <a href="https://www.instagram.com/luscanabis_/" target=' _blank'><FaInstagramSquare className='social-icon' /></a>
-                            <a href="https://www.instagram.com/luscanabis_/" target=' _blank'><FaLinkedin className='social-icon' /></a>
                         </div>
                     </div>
                 </div>
