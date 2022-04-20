@@ -1,11 +1,28 @@
 import Dsmovie from './../../../images/projetoDsmovie.jpg'
 import SistemaList from './../../../images/SisListagem.jpg'
 import Netflix from './../../../images/clonenetfliximg.jpg'
+import gerenciadortarefas from './../../../images/gerenciadortarefas.jpg'
 
 const Dados = [
-
     {
         id: 1,
+        tittle: 'Gerenciador',
+        typeProject: 'Frontend',
+        tecs: [
+            {
+                tectype: 'Backend',
+                TecDesc: 'Node.js & postgreSQL'
+            },
+            {
+                tectype: 'Frontend',
+                TecDesc: 'React.js & CSS'
+            },
+        ],
+        link: 'https://lucasmelogerenciador.netlify.app/',
+        image: gerenciadortarefas
+    },
+    {
+        id: 2,
         tittle: 'Dsmovie',
         typeProject: 'Fullstack',
         tecs: [
@@ -22,13 +39,13 @@ const Dados = [
         image: Dsmovie
     },
     {
-        id: 2,
+        id: 3,
         tittle: 'S de listagem',
         typeProject: 'Fullstack',
         tecs: [
             {
                 tectype: 'Backend',
-                TecDesc: 'Node.js & postgresql'
+                TecDesc: 'Node.js & postgreSQL'
             },
             {
                 tectype: 'Frontend',
@@ -39,7 +56,7 @@ const Dados = [
         image: SistemaList
     }, 
     {
-        id: 2,
+        id: 4,
         tittle: 'Netflix interface',
         typeProject: 'Frontend',
         tecs: [
