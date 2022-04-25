@@ -7,7 +7,7 @@ const Dados = [
     {
         id: 1,
         tittle: 'Gerenciador',
-        typeProject: 'Frontend',
+        typeProject: 'Fullstack',
         tecs: [
             {
                 tectype: 'Backend',
